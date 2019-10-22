@@ -2,6 +2,8 @@
 
 Minimal image host
 
+![Demonstration of imghost usage](demo.gif)
+
 ## Installation
 
 Make sure you have [Node.js](https://nodejs.org/) installed and
