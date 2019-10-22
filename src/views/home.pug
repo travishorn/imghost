@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  form(action="/new-gallery" method="post" enctype="multipart/form-data")
+    input(name="images" type="file" multiple)
+    button Go

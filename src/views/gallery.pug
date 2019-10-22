@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  each image in images
+    div.image-block
+      img.image(src="/image/" + image.filename)

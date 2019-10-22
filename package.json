@@ -1,0 +1,31 @@
+{
+  "name": "imghost",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal image host",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server",
+    "lint": "eslint **/*.js",
+    "lint:fix": "eslint --fix **/*.js"
+  },
+  "keywords": [],
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com)",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.10.0",
+    "koa-body": "^4.1.1",
+    "koa-pug": "^4.0.2",
+    "koa-router": "^7.4.0",
+    "koa-send": "^5.0.0",
+    "mongoose": "^5.7.6",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2"
+  }
+}
